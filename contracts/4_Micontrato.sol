@@ -18,7 +18,7 @@ contract Micontrato {
     }
 
     modifier isOwner(){
-        //require(msg.sender == owner, "No eres el dueno del contrato");
+        require(msg.sender == owner, "No eres el dueno del contrato");
         _;
     }
 
@@ -33,12 +33,11 @@ contract Micontrato {
     }
 
    
-
     function dimeDia() external pure returns(uint) {
         return 13;
     }
 
-    function dimeManana() external pure isOwner returns(uint) {
+    function dimeManana() external view isOwner returns(uint) {
         return 14;
     }
 }
