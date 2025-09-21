@@ -52,7 +52,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -118,11 +118,11 @@
 			]
 		},
 		"contracts/4_Micontrato.sol": {
-			"keccak256": "0x9a390222554aa095efd4fa8f98f510a840b0d5f04c928e811cf8d33521cab70f",
+			"keccak256": "0xd5ec7e39016fba641742bfdd2356dedff0207ade8d92a06ba13eb8f7bc7ab165",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6c50dc8454f234f89c1abd2cada5b8ec2dc48bc1d68b0221ea079e3063510398",
-				"dweb:/ipfs/QmZyXZHaiSEMosZCnCuCUbBbZUuckZ81aiLrMmLbghyddH"
+				"bzz-raw://0efa9d13955c95c712e8b09cf8bf9d7e40e7da3e4f45334b5edd04aa01e965ea",
+				"dweb:/ipfs/QmdexRxsWtt6snzbCRXGEoumCCS9WDNNg4S7z6NBEyMn9s"
 			]
 		},
 		"hardhat/console.sol": {

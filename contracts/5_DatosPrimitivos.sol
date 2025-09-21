@@ -26,7 +26,9 @@ contract DatosPrimitivos{
         owner = _nuevoPropietario;
     }
 
-    function setClave(string memory _str) public {
-        clave = keccak256(abi.encodePacked(_str));
+    function setClave(string calldata _str) public {
+        clave = keccak256(abi.encodePacked(_str)); //hola = 0x686f6c61
+        //memory: Se va a crear en memoria una copia de _str y luego se usa
+        //calldata: Se va usar directamente el _str
     }
 }
