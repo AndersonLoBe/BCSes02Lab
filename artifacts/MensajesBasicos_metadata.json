@@ -1,0 +1,213 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "remitente",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "destinatario",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "contenido",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "fecha",
+						"type": "uint256"
+					}
+				],
+				"name": "MensajeEnviado",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_usuario",
+						"type": "address"
+					}
+				],
+				"name": "cantidadMensajes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_destinatario",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_contenido",
+						"type": "string"
+					}
+				],
+				"name": "enviarMensaje",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "propietario",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "verHistorial",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "remitente",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "destinatario",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "contenido",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "fecha",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct MensajesBasicos.Mensaje[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_usuario",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "indice",
+						"type": "uint256"
+					}
+				],
+				"name": "verMensaje",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "remitente",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "destinatario",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "contenido",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "fecha",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct MensajesBasicos.Mensaje",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_EjercicioMensajes.sol": "MensajesBasicos"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/9_EjercicioMensajes.sol": {
+			"keccak256": "0xd7f806881808014e93fe68b4d92fbdbce4a8e7c464183f7e4a979ab5b22ae3cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://74ecb1572a0d2faf08db683dbc26364a6f2b9339763fd12707848ec23d9cd0ec",
+				"dweb:/ipfs/QmezZTHWd2M3ZD3ThY8bxwxpniLBjTtw61hWtFPwyGeiv4"
+			]
+		}
+	},
+	"version": 1
+}
