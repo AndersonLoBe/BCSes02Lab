@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.2 <0.9.0;
+
 contract RecibirYMostrarBalance {
-    receive() external payable { }
+    receive() external payable { }//sirve para pasar values por el transact
     
     function donar() public payable{
     }

@@ -15,8 +15,6 @@ contract DatosComplejos {
 
     Persona[] public personas;
 
-    mapping()
-
     function agregarNombre(string memory _nombre) public {
         nombres.push(_nombre);
     }
@@ -36,12 +34,8 @@ contract DatosComplejos {
         emit PersonaAgregada(_nombre, personas.length - 1);
     }
 
-    function agregarPersonaMapping(uint _id, string memory _nombre, uint _edad) public {
-        personasMapping[_id] = Persona(_nombre, _edad)
-    }
-
     function devolverPersona(uint pos) public view returns (string memory, uint) { 
-        return (personas [pos].nombre, personas [pos].edad);
+        return (personas[pos].nombre, personas[pos].edad);
     }
 
     function pintarPersonas() public view {

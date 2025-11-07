@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"contracts/7_WhereBasic.sol": {
-			"keccak256": "0x8763fcc2474206a7122154e219f04135f57aa2619bc9aa8dfbb754309c0239e5",
+			"keccak256": "0x059c24180e01966f5da8b2683fda0500bcdf0b04753aadc72a935757fe80e69a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a098bba7f826d87c9905318a8ed30e6d62468ab8ff90ba4699f829b61a5e2a8b",
-				"dweb:/ipfs/QmTLtphYw4Ak7imUbmFuhU2rQouMzgkNpvnFSCM8LxMakv"
+				"bzz-raw://67253de46f50f431fa9f4310e66bf4dc657bbbcd7465cd17de3b9c61e2d06650",
+				"dweb:/ipfs/QmettLr42hf8jn6dco5oRnqTga4fFQPoLayBfGihWoXAbd"
 			]
 		}
 	},

@@ -178,10 +178,11 @@
 	},
 	"sources": {
 		"contracts/8_DatosComplejos.sol": {
-			"keccak256": "0xae2e827e56a7a67666ac09e2999ad029ac8db4331510ba705855796721158c63",
+			"keccak256": "0x24058d99b5ba535c56ee560f30feeea49f27187f5c33d5fffc30c78568a7a8e9",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a80e0b236de64599f781b7c845755b19960054080fe1dfa3f3f1859118f81447",
-				"dweb:/ipfs/QmZrvLyWNj3DcHqCtMNcuUGEnTVzMfMXN4WBnjdf5k3cte"
+				"bzz-raw://a6a8828b34401cc8a380965f11795b7ef5858e88e95491d4e7c6dc16ef1f9f40",
+				"dweb:/ipfs/QmW2FLF3PfPmt6ru6WucM7Y3PbuqNrQPFgtnM2zSQ2ZXu7"
 			]
 		},
 		"hardhat/console.sol": {
