@@ -6,7 +6,12 @@ import "./10_Padre.sol";
 
 contract Perro is Animal {
     constructor() Animal("Perro") {}
+
     function hacerSonido() public pure override returns (string memory) {
         return "guau guau";    
+    }
+
+    function devolverEdad() public pure returns (uint) {
+        return getEdad();
     }
 }

@@ -2,18 +2,22 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
-contract Animal{
-    string public specie;
-
-    constructor(string memory _especie){
+contract Animal {
+    string public especie;
+    
+    constructor(string memory _especie) {
         especie = _especie;
     }
 
-    function hacerSonido() public pure returns (string memory){
-        return "Sonido animal";
+    function hacerSonido() public pure virtual returns (string memory) { 
+        return "Sonido generico de animal";
     }
 
-    function devolverEspecie() public view returns (string memory){
-        return string(abi.encodePacked("La especie es: ", especie));
-    } 
+    function devolverEspecie() public view returns (string memory) { 
+        return string (abi.encodePacked ("Especie: ", especie));
+    }
+
+    function getEdad() internal pure returns (uint256){
+        return 1;
+    }
 }

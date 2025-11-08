@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "devolverEdad",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "devolverEspecie",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "especie",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hacerSonido",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/11_Hijo.sol": "Perro"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/10_Padre.sol": {
+			"keccak256": "0x00c88a246a6e14494df01e31fb1ec13754724c9d164855dff701bc44dfbf596f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4e92d847b730e5b14427b090a333a19e78d14151c67a9c2f223b9632ee57f3a2",
+				"dweb:/ipfs/QmYhARmKX7povZar8ZjERPAE7cksKJLiEL3hf7JPMyJq4M"
+			]
+		},
+		"contracts/11_Hijo.sol": {
+			"keccak256": "0x8d8f9e382472f1eb05bf6d81b2891d9cdd20cabdaebdb321afd5105188ed50c6",
+			"license": "GPL-3.",
+			"urls": [
+				"bzz-raw://c7e73f0b37b2af1ba9cb13e3aebf47437719c612ff18caa10a024295f7b92bdd",
+				"dweb:/ipfs/QmZom97ZXj7EQGqPMnVHUSjyDM27h6Zf4hgta9DBo2MVWb"
+			]
+		}
+	},
+	"version": 1
+}
