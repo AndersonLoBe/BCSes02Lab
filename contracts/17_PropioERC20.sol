@@ -6,6 +6,6 @@ import "./16_ERC20.sol";
 contract PropioERC20 is ERC20 {
     constructor() ERC20("Ballenita Fan Token", "BFT"){ 
         //_mint(msg.sender, 1000);
-        _mint(msg.sender, 1000 * 10 ** 18);
+        _mint(msg.sender, 1000);
     }
 }
